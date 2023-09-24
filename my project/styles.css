@@ -189,7 +189,83 @@ color: #fff;
     grid-template-columns: repeat(3,1fr);
 
 }
+.front{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
 .Btech-card-front{
-    height: 24rem;
-    width: 20rem;
+    display: block;
+    height: 15rem;
+    width: 13rem;
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+    /* margin: 0 auto; */
+    box-shadow: 0 2px 3px rgb(185, 227, 242);
+    background-color: rgb(235, 195, 195);
+    color: black;
+     position: relative; 
+
+}
+.front{
+    position: relative;
+}
+.btech-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.total-study{
+    background-color: black;
+}
+.btech-clg{
+    font-size: 1.4rem;
+}
+/* crd back */
+.gpa{
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+.gpa-here{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.card-back{
+    transform: rotateY(-180deg);
+    height: 15rem;
+    width: 13rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 2px 3px rgb(32, 35, 36);
+    background-color: #fff;
+    color: black;
+   
+}
+/* .card-back{
+display: block;
+} */
+.Btech-card-front,
+.card-back{
+    
+    position: absolute !important;
+     top: 0;
+    left: 0; 
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    transition: all 0.8s;
+    cursor: pointer;
+
+}
+.front:hover .Btech-card-front{
+    transform: rotateY(-180deg);
+}
+.front:hover .card-back{
+    transform: rotateY(0deg);
+}
+.total-study{
+    background-color:black;
 }
