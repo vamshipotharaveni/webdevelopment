@@ -16,6 +16,7 @@ html{
     background-image: linear-gradient(rgba(12, 20, 24, 0.8), rgba(71, 72, 72, 0.8)) ,url(bgimg.jpeg);
     height: 90vh;
     width: 100%;
+    border-bottom: 2px solid #0af7d4;
 }
 
 .logo{
@@ -131,6 +132,9 @@ color: #fff;
     margin: 4rem 0 0 0;
 }
 /* second page */
+.page-about{
+    padding-bottom: 2rem;
+}
 .second-page{
     background-color: rgb(31, 23, 23);
     color: #fff;
@@ -187,37 +191,50 @@ color: #fff;
 .study-info{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    background-color: black;
 
 }
 .front{
     text-align: center;
     align-items: center;
     margin: 0 auto;
+    padding-right: 10rem;
 }
 .Btech-card-front{
     display: block;
     height: 15rem;
     width: 13rem;
-    /* text-align: center;
+    text-align: center;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     /* margin: 0 auto; */
-    box-shadow: 0 2px 3px rgb(185, 227, 242);
+    box-shadow: 0 3px 4px #fff;
     background-color: rgb(235, 195, 195);
     color: black;
      position: relative; 
+     background-color:rgba(94, 252, 252, 0.863)
+
+}
+.total-study{
+    padding-top:4rem;
+
+    height: 22rem;
+    width: 100%;
 
 }
 .front{
     position: relative;
+  
 }
 .btech-title{
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 4rem;
+    
 }
 .total-study{
-    background-color: black;
+    background-color: rgb(28, 17, 17);
+    margin: 0 auto;
 }
 .btech-clg{
     font-size: 1.4rem;
@@ -240,14 +257,14 @@ color: #fff;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    box-shadow: 0 2px 3px rgb(32, 35, 36);
+    box-shadow: 0 3px 2px rgb(32, 35, 36);
     background-color: #fff;
     color: black;
    
 }
-/* .card-back{
+.card-back{
 display: block;
-} */
+}
 .Btech-card-front,
 .card-back{
     
@@ -258,6 +275,8 @@ display: block;
     -moz-backface-visibility: hidden;
     transition: all 0.8s;
     cursor: pointer;
+    
+ 
 
 }
 .front:hover .Btech-card-front{
@@ -267,5 +286,61 @@ display: block;
     transform: rotateY(0deg);
 }
 .total-study{
-    background-color:black;
+    background-color:rgb(31, 21, 21);
+    border-top: 2px solid #0af7d4;
+}
+/* 4th page */
+.achivements{
+    background-color: rgb(26, 19, 19);
+    height:50rem;
+    color: #fff;
+}
+.grid-3{
+   display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.ones{
+    
+   margin: 0 auto;
+   height: 15rem;
+   width: 15rem;
+   text-align: center;
+   border-radius: 1500px;
+   align-items: center;
+   border: 8px solid yellowgreen;
+   text-align: center;
+   overflow: auto;
+ 
+}
+.web-dev{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto ;
+    padding-top: 2rem;
+    text-align: center;
+  
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.percentage{
+    padding-top:2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto ;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.achivements{
+   padding-top: 10rem;
+}
+.achived{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 4rem;
+    font-weight: 900;
 }
