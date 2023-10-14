@@ -63,4 +63,21 @@ let j=10000;
  });
  console.log(l);
 
- //
+ //sets in js
+
+ let set1=new Set();
+ set1.add(20)
+     .add(2)
+     .add(40)
+     .add(30)
+     .add(20)
+     .delete(20)
+ console.log(set1);
+
+ let part="vamshi yadav";
+    let set2=new Set(part)
+    
+    console.log(set2);
+    console.log(typeof set2)
+    
+
