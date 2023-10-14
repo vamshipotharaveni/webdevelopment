@@ -10,12 +10,7 @@ html{
     color: #331D2C;
 }
 /* hero page-starts here */ 
-.check-content{
-    /* opacity: 0; */
-}
-.check-one:checked~.check-content{
-    /* opacity: 1; */
-}
+
 .hero-heding{
     display:flex;
     justify-content: space-between;
@@ -359,4 +354,24 @@ padding: 2rem;
 }
 .flex-1{
     display: flex;
+}
+.ip{
+    height: 22rem;
+    width: 20rem;
+}
+/* over info */
+.over-info{
+    width: 90%;
+    height: 24rem;
+    /* float: inline-start; */
+    background-color: #736e6e;
+    color: aliceblue;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    display: none;
+}
+.check-one:hover~.over-info{
+    display: block;
+    
 }
