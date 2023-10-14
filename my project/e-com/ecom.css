@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #331D2C;
+}
+/* hero page-starts here */ 
+.check-content{
+    /* opacity: 0; */
+}
+.check-one:checked~.check-content{
+    /* opacity: 1; */
+}
+.hero-heding{
+    display:flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    column-gap: 2rem;
+}
+.search-bar-div{
+    margin-left: 3rem;
+}
+.nav{
+    background-color:#FEC260;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.check-one{
+    display: none;
+}
+.search-bar{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 50rem;
+    border-radius: 12px 0 0 12px;
+  
+   
+}
+.icons{
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+.search-bar-div{
+    display: flex;
+}
+.fa-search{
+    padding: 1.3rem 1.8rem  ;
+    background-color: black;
+    border-radius: 0 12px 12px 0;
+    color: #fff;
+    transition:all 0.3s ;
+}
+.fa-search:hover{
+transform: scale(1.2);
+}
+.search-label{
+    font-size: 1.2rem;
+}
+
+/* part-one */
+.part-one{
+    background-color:#FEC260 ;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    /* height: 20rem; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0 1px 3px rgb(82, 75, 75);
+}
+.fst-part{
+
+    margin-left: 15rem;
+    
+}
+.line{
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    font-weight: 650;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.second{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.span-part-one{
+    font-size: 4rem;
+    font-weight: 660;
+}
+.third{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 1.4rem;
+}
+.fourth{
+    font-size: 2rem;
+   padding-bottom: 4rem;
+}
+.grid-two{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fst-img{
+    height: 21rem;
+    width: 23rem;
+}
+
+/* second grid */
+.items{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+margin: 0 auto;
+width: 90%;
+padding-top: 1rem;
+height: 30rem;
+box-shadow: 0 1px 3px #484141 ;
+}
+.third-page{
+    margin-top: 4rem;
+    margin-bottom:4rem ;
+}
+.phone-two{
+    height: 20rem;
+    width: 18rem; 
+}
+.phone{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 24rem;
+    width: 19rem;
+    margin: 0 auto;
+    /* box-shadow: 0 1px 2px rgb(108, 97, 97); */
+}
+.phone-name{
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.phone-price{
+    font-size: 1.4rem;
+}
+
+/* third page */
+.title-shopping{
+    margin-left: 7.5rem;
+    margin-bottom:3rem ;
+    font-weight: 600;
+}
+.span-shopping{
+    margin-left: 5rem;
+    font-weight: 500;
+    background-color: #e7940d;
+    color: white;
+    padding: 1rem 1.4rem;
+}
+.shopping-grids{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.title-shopping{
+    font-size: 1.8rem;
+}
+.shopping-here{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+      box-shadow: 0 1px 2px rgb(108, 97, 97);
+      height: 33rem;
+      width: 24rem;
+}
+.shopping-grids{
+    width: 90%;
+    margin: 0 auto;
+}
+.phone-two{
+    padding :1.5rem 0 0 0 ;
+}
+.shooping{
+    margin-bottom: 3rem;
+   padding-top: 5rem;
+}
+.shopping-para {
+    text-align: justify;
+    padding-left: 1rem;
+    padding-bottom: 4px;
+}
+.stars{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: gold;
+    padding-left: 1rem;
+}
+.ak{
+    color:#e7940d;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.dho{
+    font-size: 1.4rem;
+    color: #736e6e;
+}
+.off-span{
+    padding-left: 4rem;
+    color: rgb(228, 153, 14);
+    font-weight: 450;
+}
+.star-span{
+    color: black;
+    padding-left: 3rem;
+}
+.thin{
+    font-size: 1.5rem;
+    
+}
+.char{
+    font-size: 1.3rem;
+}
+/* fifth page */
+
+.grid-five{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+.mini-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.mini-img{
+    height: 28rem;
+    width: 23rem;
+
+}
+.offers{
+    margin-top: 7rem;
+    margin-bottom:4rem ;
+}
+.grid-five-one{
+    box-shadow: 0 1px 2px rgb(101, 94, 94);
+    position: relative;
+    height: 41rem;
+    width: 30rem;
+}
+.offer-tag{
+    padding: 1rem 0;
+    background-color: #ebda27;
+    font-weight: 430;
+    width: 30%;
+    text-align:center;
+    position: absolute;
+    top:-1rem;
+    left: -1rem;
+    box-shadow: 0 1px 2px rgb(86, 82, 82);
+    font-size: 1.2rem;
+
+}
+.offer-title{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: 550;
+
+
+}
+.mini-one{
+    padding-left:1rem ;
+}
+.offer-price{
+    font-size: 1.5rem;
+    color: #e8a20a;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.actual-price{
+    font-size: 1.6rem;
+    /* padding-bottom: 2rem; */
+}
+.offer-shop-now{
+    padding: 1.2rem 1.4rem;
+    background-color: #f4c45c;
+    font-size: 1.2rem;
+    font-weight: 450;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 2rem 4rem;
+    width: 40%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.offer-shop-now:hover{
+transform: scale(0.9); 
+color: #fff;
+font-weight: 700;
+font-size: 1.4rem;
+
+}
+.special-offers{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+}
+.ms{
+     height: 23rem;
+    width: 23rem;
+}
+
+/* footer */
+
+.foot-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-left: 3rem;
+}
+.footer{
+background-color: #f5aa09;
+padding: 2rem;
+
+}
+.fool{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.fa-whatsapp,
+.fa-facebook,
+.fa-instagram{
+   
+    font-size: 15rem;
+    padding-left:2rem
+}
+.contacts{
+    padding: 1rem 0 0 0;
+    font-size: 2.3rem;
+}
+.ws{
+    height: 23rem;
+    width: 23rem;
+}
+.flex-1{
+    display: flex;
+}
