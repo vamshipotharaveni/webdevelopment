@@ -55,6 +55,7 @@ console.log("this is reverse of the in put ==> "+names);
     }
 
 // for each loop
+
 let j=10000;
  let l=[4000,5903,85309,8930,89793];
  l.forEach((s,index) => {
@@ -80,4 +81,11 @@ let j=10000;
     console.log(set2);
     console.log(typeof set2)
     
+// prime number
+
+let k=1;
+if(k/)
+
+
+ 
 
