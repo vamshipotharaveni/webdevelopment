@@ -81,10 +81,6 @@ let j=10000;
     console.log(set2);
     console.log(typeof set2)
     
-// prime number
-
-let k=1;
-if(k/)
 
 
  
