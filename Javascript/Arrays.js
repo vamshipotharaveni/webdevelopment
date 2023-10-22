@@ -31,6 +31,8 @@ console.log(arr.length);
 console.log(arr.indexOf("vijay"));
 
 
+//array problems 
+
 
 
 
