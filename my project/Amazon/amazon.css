@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 62.5%;
+}
+.contaner{
+    background-color: rgb(35, 27, 27);
+}
+.first-head{
+    display: flex;
+    
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+   align-items: center;
+}
+.logo{
+    height: 100%;
+    width: 10rem;
+    padding-left: 0.1rem;
+    margin-top: 0.2rem;
+}
+.fa-search{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    /* margin:-2.2rem 0 -2.2rem 0; */
+   
+
+}
+.searched{
+    font-size:2rem;
+    background-color: rgb(249, 154, 46);
+    padding: 0.8rem ;
+    border-radius: 0 4px 4px 0;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s;
+    /* margin-top:1.5rem; */
+  
+}
+.searched:hover{
+    transform: scale(1.2);
+}
+.searched-bar{
+    font-size: 1.4rem;
+    border-radius:  4px 0  0 4px ;
+    outline: none;
+    border:none;
+    padding:0 30rem 0 1.3rem ;
+  
+}
+.search-bar{
+    display: flex;
+   
+   
+}
+.location{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.fa-map-marke{
+    font-size: 5rem;
+}
+.locations{
+
+text-align: justify;
+border: 1px  solid  rgb(35, 27, 27);
+
+
+}
+.location{
+    margin: 0 1rem 1rem  1rem;
+    padding-bottom:1rem;
+}
+.title-para-2{
+    margin: 1rem 1rem 0  1rem;
+   
+}
+.flags{
+    height: 1.7rem;
+    width: 2.5rem;
+   
+
+}
+.span-flag{
+   font-size: 1.4rem;
+   font-weight: 600;
+}
+.locations:hover{
+    border: 1px solid #fff;
+    transform: scale(0.9);
+}
+
+/* second -nav starts here */
+
+.second-page{
+    padding: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(6, 4, 4, 0.664);
+}
+.third-page{
+    background-image:url(bg.jpg);
+    height: 90vh;
+    width: 100vw;
+}

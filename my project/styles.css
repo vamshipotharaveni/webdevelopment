@@ -30,16 +30,23 @@ html{
 .show-mobile-nav-label{
     
 } */
-
+.mobile-nav-link{
+    list-style: none;
+}
 .mobile-nav-link:link,
 .mobile-nav-link:visited{
     color: #fff;
     font-size: large;
     text-decoration: none;
     position: absolute;
+  
 }
 .hero-page{
     position: relative;
+    background-color: #000;
+}
+.nav-links{
+    list-style: none;
 }
 /* bars */
 
@@ -283,6 +290,7 @@ color: #fff;
 .btech-clg{
     font-size: 1.4rem;
 }
+
 /* crd back */
 .gpa{
     font-size: 1.8rem;
@@ -311,7 +319,7 @@ display: block;
 }
 .Btech-card-front,
 .card-back{
-    
+    border: 3px solid rgb(182, 252, 7);
     position: absolute !important;
      top: 0;
     left: 0; 
@@ -354,7 +362,11 @@ display: block;
    border: 8px solid rgb(231, 36, 36);
    text-align: center;
    overflow: auto;
+   transition: all 0.5s;
  
+}
+.ones:hover{
+    border: 8px solid yellowgreen;
 }
 .web-dev{
     align-items: center;
