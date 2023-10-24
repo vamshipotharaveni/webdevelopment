@@ -18,3 +18,6 @@ console.log(typeof(i));
 
 let j = Boolean(i); 
 console.log(typeof(j));
+
+
+
