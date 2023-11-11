@@ -1,0 +1,13 @@
+public class funtions{
+	void printAny();
+	{
+		int a;
+		a=1;
+		System.out.println("This your backlogs count= "+a);
+	}
+	public static void main(String args[])
+	{
+		functions obj=new functions();
+		functions printAny();
+}
+}
